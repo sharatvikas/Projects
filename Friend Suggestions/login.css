@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	font-family: "Comic Sans MS", cursive;
+}
+
+
+html
+{
+	height:100%;
+}
+
+body
+{
+  padding:0px;
+  margin:0px;
+  background: #daccc5; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #daccc5 0%, #a6a6a6 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#daccc5), color-stop(100%,#a6a6a6)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #daccc5 0%,#a6a6a6 100%);   /*   Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #daccc5 0%,#a6a6a6 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #daccc5 0%,#a6a6a6 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  #daccc5 0%,#a6a6a6 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daccc5', endColorstr='#a6a6a6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  position:relative;
+}
+
+.content_wrapper
+{
+	margin:auto;
+	margin-top:200px;
+	width:300px;
+	
+}
+.logo_holder
+{
+	width:150px;
+	margin:auto;
+}
+
+.input_holder
+{
+	margin:auto;
+	width:250px;
+}
+
+.user_form
+{
+	height:30px;
+	width:250px;
+	text-align:center;
+	border-style:none;
+	margin:auto;
+	border-radius:10px;
+	margin-top:20px;
+	color:black;
+	
+}
+.user_form:focus
+{
+	box-shadow: 0px 0px 3px 1px #000;
+	outline:none;
+}
+
+.submit_button
+{ 
+	margin:auto;
+    margin-top:20px;
+	width:100px;
+	height:30px;
+	border:none;
+	outline:none;
+	font-family:"Comic Sans MS", cursive;
+	border-radius:10PX;
+}
+.submit_button:hover
+{
+	cursor:pointer;
+	background:#666;
+	color:white;
+}
+
+.formslot
+{
+	border-radius:10px;	
+	background: #FFF
+	color:#CCC;
+	text-align:center;
+	width:90px;
+	height:20px;
+
+	
+}
+
+.formslot1
+{
+	border-radius:10px;
+	height:30px;
+	background:#FFF;
+	color:#black;
+	text-align:center;
+	width:250px;
+}
+
+.main_table
+{
+	color:#333;
+}
+
+.taskbar
+{
+	height:60px;
+	width:100%;
+	background-color:#333;
+}
+
+.taskbar_container
+{
+	width:800px;
+	margin:auto;
+	height:60px;
+}
+
+.taskbar_button
+{
+	color:white;
+	float:left;
+	margin-left:30px;
+	width:150px;
+	background: #333;
+	color:#FFF;
+	padding-top:18px;
+	padding-bottom:18px;
+	padding-left:5px;
+	text-align:center;
+	padding-right:5px;
+}
+.taskbar_button:hover
+{
+	cursor:pointer;
+	background:#333;
+	color:#999;
+	border-bottom:solid 3px #09F;
+}
+
+.content
+{
+	min-height:500px;
+	width:800px;
+	background: url(assets/profback.png);
+	margin:auto;
+	box-shadow: 0px 0px 30px 0px #333333;
+}
+
+.checkboxTwo {
+	width: 120px;
+	height: 40px;
+	background: #FFF;
+	margin: 20px 60px;
+	border-radius: 50px;
+	position: relative;
+	
+}
+.checkboxTwo:before {
+	content: '';
+	position: absolute;
+	top: 19px;
+	left: 14px;
+	height: 2px;
+	width: 90px;
+	background: #999;
+}
+.checkboxTwo label {
+	display: block;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 9px;
+	z-index: 1;
+	left: 12px;
+	background: #ddd;
+}
+.checkboxTwo input[type=checkbox]:checked + label {
+	left: 84px;
+	background: #FF9933;
+}
+
+.menu_icon
+{
+	position:absolute;
+	right:13px;
+	top:14px;
+}
+.menu_icon:hover
+{
+	cursor:pointer;
+}
+
+.menu
+{
+	position:absolute;
+	right:10px;
+	top:80px;
+	opacity:0;
+	-webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+	transition: opacity 1s;
+	}
+.menu_items
+{
+	margin-top:10px;
+	width:150px;
+	height:30px;
+	padding-left:5px;
+	padding-top:5px;
+	
+}
+.menu_items:hover
+{
+	color:white;
+	cursor:pointer;
+	background:#333;
+}
+.edit_profile
+{   border-radius:50%;
+height:30px;
+width:30px;
+font-size: 18px;
+	background:#333;	
+	float:right;
+	color:white;
+	margin-top:20px;
+	margin-right:20px;	
+}
+.edit_profile:hover
+{
+	color:black;
+	background:#CCC;
+	cursor:pointer;
+}
+
