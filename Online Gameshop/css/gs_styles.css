@@ -1,0 +1,319 @@
+<style type="text/css">
+{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #f0f0f0;
+	font: 14px/20px Arial, San-Serif;
+	color: #555;
+	margin: 0;
+}
+h1	{
+	text-align: center;
+	font-size: 180%;
+	line-height: 120%;
+	padding: 5% 0;
+}
+h2	{
+	text-decoration: underline;
+    text-align: center;
+    line-height: 125%;
+    padding-left: 0%;
+}
+}
+h3	{
+	line-height: 110%;
+	padding: 5% 0;
+	color: #0c0c0c;
+	text-align: center;
+}
+p {
+	padding: 1%;
+}
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	border-color: #191718;
+	border-radius: 30px;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a: hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+header	{
+	background:  #220033;
+	width: 100%;
+	height: 66px;
+	margin-bottom: 10px;
+	padding-top: 6px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.9;
+}
+#logo {
+	margin-left: 10px;
+	margin-bottom: 1px;
+	margin-top: -2px;
+	text-align: center;
+	color: rgba(255,0,0,0.5);
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(http://www.xbox.com/Content/Images/sizer.png) no-repeat center;
+}
+nav {
+	float: right;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(https://css-tricks.com/wp-content/uploads/2012/10/threelines.png) center;
+}
+a:hover #menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+ul {
+    list-style: none;
+    float: left;
+    margin-top: 1px;
+    margin-left: 25px;
+    text-align: center;
+
+}
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	padding-bottom: 50px;
+	list-style: none;
+}
+#search {
+	display: inline-block;
+	float: left;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 600px;
+	list-style: none;
+	width: 450px;
+	border-style: ridge;
+	border-width: thick;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.current {
+	color: #FFF;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-bottom: 1px;
+	margin-top: -2px;
+	padding-bottom: 3px;
+	padding-top: -4px;
+
+}
+.current:hover {
+	color: #FFF;
+	text-decoration: underline;
+	margin-left: 10px;
+	margin-bottom: 1px;
+	margin-top: -2px;
+	padding-bottom: 3px;
+}
+#doc {
+	margin: 40px 0;
+}
+#content {
+	margin: 0 auto;
+	max-width: 1140px;
+	margin-top: 110px;
+}
+section {
+	display: inline;
+    width: 29%;
+    float: left;
+    margin: 2% 1%;
+    text-align: center;
+}
+section img {
+	height: 200px;
+	width: 200px;
+	border-style: ridge; 
+	border-color: rgba(0,0,0,0.8);
+	border-radius: 50px;
+
+}
+.clear {
+	clear: both;
+}
+article {
+    float: left;
+    margin: 0px 0px 0px 15px;
+    width: 55%;
+    height: auto;
+    padding: 0%;
+    border-color: darkgrey;
+    border-style: ridge;
+    border-radius: 33px;
+}
+aside {
+    float: left;
+    margin: 1px 0px 0px 0px;
+    width: 40%;
+    height: auto;
+    padding: 1%;
+}
+aside h2 {
+	text-decoration: underline;
+    text-align: center;
+    line-height: 125%;
+    padding-left: 0%;
+}
+aside h3 {
+	text-align: center;
+    line-height: 100%;
+    font-size: 16px;
+    margin: 20px;
+}
+}
+aside ul li {
+	list-style: none;
+    float: left;
+    margin-left: 5px;
+}
+ul.gameshop li {
+	padding-left: 3%;
+}
+footer {
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.9;
+	font-size: 19px;
+	font-style: bold;
+	color: #000;
+}
+footer p,footer h3 {
+	color: #191718;
+}
+footer p a {
+	color: rgba(255,255,255,0.6);
+	text-decoration: none;
+}
+ul.social li {
+	display: inline;
+    padding: 0% 0%;
+    margin-left: 30px;
+}
+ul.social li img {
+	height: 50px;
+	width: 45px;
+	border-color: #191718;
+	border-radius: 100px;
+	margin-left: 2%;
+}
+footer.second {
+	border-top: 1px solid #4D4E50;
+	background-color: #333333;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95;
+}
+.loginbox {
+
+
+}
+.login_container {
+
+
+}
+
+#about {
+
+}
+
+.formslot {
+
+
+}
+
+.nameslot {
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 740px) {
+	header {
+		position: absolute;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #FFF;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	section {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	article {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	aside {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+}
