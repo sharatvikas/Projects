@@ -1,0 +1,52 @@
+<style>
+
+body {
+	background-color:cadetblue;
+	margin: 0px auto;
+    height: auto;
+	width: auto;
+	text-align: center;
+	color:red;
+}
+
+h1 {
+	font-size: 40px;
+	padding-top: 15px;
+	text-align:center;
+}
+h1:hover {
+	color: maroon;
+}
+
+p {
+	
+	font-family: Times Roman;
+	padding-top: 15px;
+	text-align:center;
+}
+
+
+#container {
+	
+	border: 10px #333 solid;
+	float: left;
+	margin-left:350px;
+    margin-top: 30px;
+	margin-right: 250px;
+	margin-bottom: 100px;
+	text-align: center;
+    height: auto;
+    width: 640px;
+    border-color: #CCC;
+    border-radius: 20px;
+
+}
+#videoElement {
+    width: 500px;
+    height: 375px;
+    background-color: #666;
+	height: auto;
+	width: auto;
+	border-radius:10px;
+}
+</style>

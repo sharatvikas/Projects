@@ -1,0 +1,36 @@
+<html>
+<header>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title> Video Streaming Webpage </title> </header>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<body>
+	<h1> Smile Please! </h1>
+	<p> Hello There! Its time to capture that smile and stream it live! </p>
+	<br>
+	<p> RIGHT HERE! So Get Ready to Wave for the Camera ! \m/ </p>
+	
+<div id="container">
+    <video autoplay="true" id="videoElement">    </video>
+</div>
+ <script>
+var video = document.querySelector("#videoElement");
+ 
+navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
+ 
+if (navigator.getUserMedia) {       
+    navigator.getUserMedia({video: true}, handleVideo, videoError);
+}
+ 
+function handleVideo(stream) {
+    video.src = window.URL.createObjectURL(stream);
+}
+ 
+function videoError(e) {
+    // do something
+}
+
+</script>
+</body>
+</html>
