@@ -1,0 +1,31 @@
+<table>
+						<tr>
+						
+						<%PreparedStatement ps1 = null;
+							ResultSet rs1 = null;
+							try
+								{
+									Connection con1 = databasecon.getconnection();
+									ps1=con1.prepareStatement("select file from video");
+									rs1=ps1.executeQuery();
+									while(rs1.next())
+									{
+									file_data=rs1.getString(1);
+									%><td>
+									<video width="320" height="240" controls >
+  <source src="documents/<%=file_data%>" type="video/ogg">
+  <source src="documents/<%=file_data%>" type="video/mp4">
+  <source src="documents/<%=file_data%>" type="video/webm">
+  <object data="documents/<%=file_data%>" width="320" height="240">
+    <embed width="320" height="240" src="documents/<%=file_data%>">
+  </object>
+</video></td></tr>
+<%
+									
+									}
+								}
+								catch(Exception e1)
+								{
+									out.println(e1.getMessage());
+								}
+								%></table>

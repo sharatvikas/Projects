@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-family: "Segoe UI Light";
+}
+body {
+	background-color: #44576a;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Segoe UI Light";
+}
+.butn {
+	height: 73px;
+	width: 100px;
+	float: right;
+}
+.butn: hover {
+	cursor: pointer;
+}
+input:hover {
+	cursor: pointer
+}
+@font-face {
+	src: url(asss/SEGOEUIL.woff)format("opentype");
+	font-family: segoeuil;
+}
+.signup_container {
+	height: 340px;
+	width: 650px;
+	background: #FFF;
+	margin: auto;
+	margin-top: 50px;
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(59,59,59,1);
+	-moz-box-shadow: 10px 10px 0px 0px rgba(59,59,59,1);
+	box-shadow: 10px 10px 0px 0px rgba(59,59,59,1);
+}
+.body_div {
+	width: 1500px;
+	margin: auto;
+}
+.sidebar_container {
+	width: 300px;
+	height: 775px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.profpic_container {
+	width: 135px;
+	height: 135px;
+	background: #CCC;
+	border-radius: 50%;
+	-webkit-transition: box-shadow 0.8s;
+	box-shadow: none;
+	margin: auto;
+}
+.profpic_container:hover {
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 0px 15px rgba(15,194,143,0.52);
+	-moz-box-shadow: 0px 0px 0px 15px rgba(15,194,143,0.52);
+	box-shadow: 0px 0px 0px 15px rgba(15,194,143,0.52);
+}
+.menu_container {
+	position: relative;
+	margin-top: 20px;
+	width: 300px;
+	height: 484px;
+	padding: 0px;
+	background: #ffffff;
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(59,59,59,1);
+	-moz-box-shadow: 10px 10px 0px 0px rgba(59,59,59,1);
+	box-shadow: 10px 10px 0px 0px rgba(59,59,59,1);
+}
+.username {
+	width: 300px;
+	height: 30px;
+	padding-top: 7px;
+	font-size: 18px;
+	text-align: center;
+	border-bottom: #333 1px solid;
+}
+.sb {
+	margin: auto;
+	width: 300px;
+	height: 32px;
+	padding-top: 8px;
+.  -webkit-transition: all 0.5s;
+	text-align: center;
+}
+.menu_items {
+	margin: auto;
+	width: 300px;
+	height: 32px;
+	padding-top: 8px;
+	background: #fff;
+	margin-top: 15px;
+	color: #333;
+	text-align: center;
+	-webkit-transition: all 0.55s;
+}
+.menu_items:hover {
+	background: #333;
+	color: #FFF;
+	cursor: pointer;
+	padding-top: 15px;
+	height: 42px;
+}
+.content_container {
+	height: 800px;
+	width: 550px;
+	float: left;
+	margin: auto;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+a {
+	text-decoration: none;
+}
+.status_box {
+	width: 790px;
+	text-align: center;
+	max-height: 200px;
+	max-width: 790px;
+	height: 150px;
+	border-style: none;
+	border-bottom: solid 1px #ccc;
+	margin-left: 5px;
+	font-size:24px;
+	
+}
+.sub_but {
+	width: 794px;
+	height: 40px;
+	border-style: none;
+	margin-left: 5px;
+	background: #996699;
+	color:white;
+	font-size:18px;
+}
+.bubble {
+    position: relative;
+    width: 250px;
+    height: 100px;
+    padding: 0px;
+    background: #FFFFFF;
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(59,59,59,1);
+	-moz-box-shadow: 10px 10px 0px 0px rgba(59,59,59,1);
+	box-shadow: 10px 10px 0px 0px rgba(59,59,59,1);
+float:right;
+}
+
+  .bubble:after {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
